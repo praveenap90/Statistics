@@ -40,25 +40,3 @@ The app has **8 main modules** with **25 lessons**. Pick a module in the top row
 Every lesson opens with an **Explained** panel (learning goals, key characteristics, ML context, why it matters) followed by the interactive part.
 
 ---
-
-## 🚀 Run or Publish
-
-1. Save `index.html` in a repository.
-2. In **Settings → Pages**, choose the branch and root folder.
-3. Open the published URL. To use locally, just double-click `index.html`.
-
-The concept maps use [Mermaid](https://mermaid.js.org/), loaded from a CDN, so they need an internet connection. Everything else works offline.
-
----
-
-## 🛠 Tech Notes
-
-* One HTML file, vanilla JavaScript, canvas charts. No build step, no tracking.
-* Light and dark themes follow your system setting.
-* Statistics verified against SciPy (Welch t-test, chi-square, log loss, sample-size formula).
-
----
-
-## 🚧 Contributing
-
-Ideas welcome: Bayes with more priors, survival analysis, causal-inference demos. ⭐ If you find this useful, consider giving it a star!
